@@ -1,0 +1,374 @@
+:root {
+  --primary: #174575;
+  --primary-dark: #183B62;
+  --navy-blue: #003366;
+  --white: #FFFFFF;
+  --black1: #000000;
+  --black2: #020407;
+  --black3: #010205;
+  --black4: #171717;
+  --black5: #190C00;
+  --black6: #181818;
+  --black7: #2A2A2A;
+  --secondary: #F3F7FB;
+  --secondary-light: #F2F7FD;
+}
+
+
+
+/* fonts */
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Bricolage_Grotesque/BricolageGrotesque-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Bricolage_Grotesque/BricolageGrotesque-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Bricolage_Grotesque/BricolageGrotesque-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Bricolage_Grotesque/BricolageGrotesque-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Bricolage_Grotesque/ExtraBold.ttf') format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/DM_Sans/DMSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/DM_Sans/DMSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/Roboto/Roboto-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Roboto/Roboto-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Roboto/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Black.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Lato/Lato-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/Lato/Lato-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Lato/Lato-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Lato/Lato-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Lato/Lato-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Lato/Lato-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/satoshi/Satoshi-Medium.otf') format('truetype');
+}
+@font-face {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/satoshi/Satoshi-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/satoshi/Satoshi-Regular.otf") format("truetype");
+}
+
+/* common styles */
+.custom-container {
+  width: 100%;
+  max-width: calc(100vw - 10%);
+  margin: 0 auto;
+}
+
+
+.primary-btn {
+  padding: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 100px;
+  background-color: var(--primary-dark);
+  color: var(--white);
+  transition: all 0.3s ease;
+  border:0;
+  cursor:pointer;
+}
+
+.primary-btn.bold {
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+.primary-btn:hover {
+  background-color: var(--primary);
+}
+
+.secondary-btn {
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+  background-color: var(--navy-blue);
+  color:var(--white);
+  border:0;
+  cursor:pointer;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn.bold{
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+.secondary-btn:hover{
+  background-color: var(--primary-dark);
+}
+
+.secondary-btn.white{
+  background-color: var(--white);
+  color: var(--black6);
+  font-family: 'Satoshi';
+  font-weight: 500;
+  border: 1px solid var(--white);
+}
+
+.secondary-btn.white:hover{
+  background-color: transparent;
+  color: var(--white);
+}
+
+.section-spacing {
+  padding: 150px 0;
+}
+
+.section-heading {
+  font-family: "Bricolage Grotesque";
+  font-weight: 600;
+  font-size: 58px;
+  color: var(--black3);
+}
+
+.section-heading.bold{
+  font-weight: 700;
+}
+
+.section-text{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--black1);
+}

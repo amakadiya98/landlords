@@ -1,0 +1,36 @@
+.newsletter-content {
+  padding: 288px 100px 100px 100px;
+  border-radius: 20px;
+  background-image: url("/images/newsletter/newsletter-bg.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.newsletter-content .text-content {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.newsletter-content .text-content h4 {
+  font-family: "Bricolage Grotesque";
+  font-weight: 600;
+  font-size: 58px;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--white);
+}
+
+.newsletter-content .text-content p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  color: var(--white);
+  margin-top:30px;
+}
+
+.newsletter-content .text-content button{
+    margin-top:30px;
+}

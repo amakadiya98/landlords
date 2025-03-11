@@ -1,0 +1,207 @@
+.common-banner-section{
+    background-image: url('/images/banner/about-banner.png');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.common-banner-section.about-banner-section{
+    background-image: url('/images/banner/about-banner.png');
+}
+.common-banner-section.service-banner-section{
+    background-image: url('/images/banner/service-banner.png');
+}
+.common-banner-section.pricing-banner-section{
+    background-image: url('/images/banner/pricing-banner.png');
+}
+.common-banner-section .banner-heading{
+    font-family: 'Bricolage Grotesque';
+    color: var(--white);
+    font-size: 68px;
+    font-weight: 500;
+    max-width: 45%;
+    margin: 0;
+}
+.common-banner-section .banner-discription{
+    font-family: 'Roboto';
+    color: var(--white);
+    font-size: 36px;
+    font-weight: 400;
+    max-width: 40%;
+    margin: 0;
+}
+.common-banner-section .left-arrow-btn{
+    font-family: 'Plus Jakarta Sans';
+    background-color: var(--primary);
+    color: var(--white);
+    width: fit-content;
+    padding: 28px 100px 28px 50px;
+    font-size: 22px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.common-banner-section .left-arrow-btn .left-icon-part{
+    position: absolute;
+    right: 12px;
+}
+.common-banner-section .left-arrow-btn .left-icon-part img{
+    transition: transform 0.3s ease;
+}
+.common-banner-section .left-arrow-btn:hover {
+    background-color: var(--primary-dark);
+}
+.common-banner-section .left-arrow-btn:hover .left-icon-part img {
+    transform: translateX(-5px);
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-content-section{
+    background-color: var(--primary-dark);
+    padding: 150px 0;
+    color: var(--white);
+}
+.main-content-section .content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.main-content-section .content h3{
+    font-family: 'Bricolage Grotesque';
+    font-size: 56px;
+    font-weight: 700;
+}
+.main-content-section .content p{
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 90%;
+}
+.main-content-section .right-small-content p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .common-banner-section .banner-heading{
+        max-width: 62%;
+    }
+    .common-banner-section .banner-discription{
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .common-banner-section{
+        height: 80vh;
+    }
+    .common-banner-section .banner-heading {
+        max-width: 88%;
+    }
+    .common-banner-section .banner-discription {
+        max-width: 65%;
+    }
+}
+@media screen and (max-width: 991px){
+    .common-banner-section .banner-heading{
+        font-size: 60px;
+    }
+    .main-content-section .content h3{
+        font-size: 48px;
+    }
+    .main-content-section{
+        padding: 80px 0;
+    }
+    .main-content-section .content p{
+        font-size: 28px
+    }
+    .main-content-section .right-small-content p:first-child{
+        margin-top: 40px;
+    }
+    .main-content-section .right-small-content p{
+        font-size: 24px;
+    }
+    .main-content-section .content p{
+        max-width: 100%
+    }
+    .common-banner-section .left-arrow-btn{
+        padding: 16px 70px 16px 35px;
+    }
+    .common-banner-section .left-arrow-btn .left-icon-part img{
+        width: 40px;
+    }
+} 
+@media screen and (max-width: 768px) {
+    .main-content-section .content{
+        gap: 20px;
+    }
+    .common-banner-section .banner-heading {
+        font-size: 50px;
+    }
+    .common-banner-section .banner-discription{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .common-banner-section{
+        height: 100vh;
+    }
+    .common-banner-section .banner-heading {
+        font-size: 46px;
+        font-weight: 700;
+        max-width: 100%;
+    }
+    .common-banner-section .banner-discription {
+        max-width: 100%;
+        font-size: 24px;
+    }
+    .main-content-section{
+        padding: 40px 0;
+    }
+    .main-content-section .content h3 {
+        font-size: 36px;
+    }
+    .main-content-section .content p {
+        font-size: 24px;
+    }
+    .main-content-section .right-small-content p:first-child{
+        margin-top: 20px;
+    }
+    .main-content-section .right-small-content p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .common-banner-section .banner-heading {
+        font-size: 38px;
+    }
+    .common-banner-section .banner-discription{
+        font-size: 22px;
+    }
+    .common-banner-section .left-arrow-btn{
+        font-size: 18px;
+    }
+    .main-content-section .content h3 {
+        font-size: 30px;
+    }
+    .main-content-section .content p {
+        font-size: 20px;
+    }
+    .main-content-section .right-small-content p {
+        font-size: 16px;
+    }
+}
