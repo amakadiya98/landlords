@@ -12,9 +12,8 @@
   --black7: #2A2A2A;
   --secondary: #F3F7FB;
   --secondary-light: #F2F7FD;
+  --grey: #253046;
 }
-
-
 
 /* fonts */
 
@@ -235,7 +234,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 500;
-  src: url('/fonts/Lato/Lato-Medium.ttf') format('truetype');
+  src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -272,6 +271,7 @@
   font-weight: 500;
   src: url('/fonts/satoshi/Satoshi-Medium.otf') format('truetype');
 }
+
 @font-face {
   font-family: "Satoshi";
   font-style: normal;
@@ -303,8 +303,8 @@
   background-color: var(--primary-dark);
   color: var(--white);
   transition: all 0.3s ease;
-  border:0;
-  cursor:pointer;
+  border: 0;
+  cursor: pointer;
 }
 
 .primary-btn.bold {
@@ -313,7 +313,8 @@
 }
 
 .primary-btn:hover {
-  background-color: var(--primary);
+  background-color: var(--black1);
+  scale: 0.98;
 }
 
 .secondary-btn {
@@ -323,22 +324,23 @@
   font-weight: 500;
   font-size: 22px;
   background-color: var(--navy-blue);
-  color:var(--white);
-  border:0;
-  cursor:pointer;
+  color: var(--white);
+  border: 0;
+  cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.secondary-btn.bold{
+.secondary-btn.bold {
   font-family: 'Open Sans';
   font-weight: 700;
 }
 
-.secondary-btn:hover{
-  background-color: var(--primary-dark);
+.secondary-btn:hover {
+  background-color: var(--black1);
+  scale: 0.98;
 }
 
-.secondary-btn.white{
+.secondary-btn.white {
   background-color: var(--white);
   color: var(--black6);
   font-family: 'Satoshi';
@@ -346,7 +348,7 @@
   border: 1px solid var(--white);
 }
 
-.secondary-btn.white:hover{
+.secondary-btn.white:hover {
   background-color: transparent;
   color: var(--white);
 }
@@ -362,13 +364,134 @@
   color: var(--black3);
 }
 
-.section-heading.bold{
+.section-heading.bold {
   font-weight: 700;
 }
 
-.section-text{
+.section-text {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 20px;
   color: var(--black1);
+}
+
+
+/* left arrow button */
+.left-arrow-btn {
+  font-family: 'Plus Jakarta Sans';
+  background-color: var(--primary);
+  color: var(--white);
+  width: fit-content;
+  padding: 28px 100px 28px 50px;
+  font-size: 22px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.left-arrow-btn .left-icon-part {
+  position: absolute;
+  right: 12px;
+}
+
+.left-arrow-btn .left-icon-part img {
+  transition: transform 0.3s ease;
+}
+
+.left-arrow-btn:hover {
+  background-color: var(--primary-dark);
+}
+
+.left-arrow-btn:hover .left-icon-part img {
+  transform: translateX(5px);
+}
+
+@media only screen and (max-width: 1600px) {
+  .section-heading {
+    font-size: 44px;
+  }
+
+  .primary-btn {
+    font-size: 20px;
+  }
+
+  .secondary-btn {
+    padding: 12px 24px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .section-spacing {
+    padding: 120px 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .left-arrow-btn {
+    padding: 16px 70px 16px 35px;
+  }
+
+  .primary-btn {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+
+  .left-arrow-btn .left-icon-part img {
+    width: 40px;
+  }
+
+  .section-spacing {
+    padding: 80px 0;
+  }
+
+  .section-text {
+    font-size: 18px;
+  }
+
+  .section-heading {
+    font-size: 36px;
+  }
+
+  .secondary-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .section-spacing {
+    padding: 40px 0;
+  }
+
+  .section-text {
+    font-size: 16px;
+  }
+
+  .primary-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 25px;
+  }
+
+  .section-heading {
+    font-size: 24px;
+  }
+
+  .secondary-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+
+  .left-arrow-btn {
+    font-size: 18px;
+  }
 }

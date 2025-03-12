@@ -23,7 +23,10 @@
 
 .header-content.fixed-header {
     top: 0;
+    max-width: 100vw;
+    border-radius: 0;
 }
+
 
 .header-links-part {
     display: flex;
@@ -48,14 +51,19 @@
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: all 0.3s ease-in-out;
+    
 }
 
 .header-links-part a:hover {
-    border-bottom: 2px solid #000000;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
 }
 
 .header-links-part .active {
-    border-bottom: 2px solid #000000;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
 }
 
 .navbar-toggler {
@@ -157,5 +165,12 @@
 
     .navbar-toggler {
         padding: 0 !important;
+    }
+    .header-links-part a:hover {
+        text-decoration-thickness: 1px;
+    }
+    
+    .header-links-part .active {
+        text-decoration-thickness: 1px;
     }
 }

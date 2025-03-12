@@ -1,0 +1,266 @@
+.achievements-section .heading-part {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.achievements-section .cards-container {
+    margin-top: 70px;
+    gap: 20px;
+}
+
+.achievements-section .cards-container .card {
+    padding: 30px 20px;
+    width: 100%;
+    max-width: 416px;
+    background-color: var(--secondary);
+    border: 0;
+    border-radius: 10px;
+}
+
+.achievements-section .cards-container .card img {
+    width: 80px;
+}
+
+.achievements-section .cards-container .card h6 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.achievements-section .cards-container .card p {
+    color: var(--black4);
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+/*  */
+.about-page .company-section .company-card .company-info {
+    max-width: calc(25% - 15px);
+}
+
+.about-page .company-section .company-btn .primary-btn {
+    padding: 30px;
+}
+
+.about-page .company-section .company-card {
+    max-width: 1800px;
+}
+
+/*  */
+.empoweing-section {
+    padding: 150px 0;
+    background-color: var(--secondary-light);
+}
+
+.empoweing-section .content {
+    background-color: var(--white);
+    border-radius: 34px;
+    padding: 78px 162px;
+}
+
+.empoweing-section .section-text {
+    font-size: 24px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.empoweing-section .left-arrow-btn {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -2%;
+}
+
+.empoweing-card-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0;
+    margin: 57px 0;
+}
+
+.empoweing-card-part .empoweing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.empoweing-card-part .empoweing-card .empoweing-card-icon {
+    background-color: var(--secondary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 138px;
+    border-radius: 50%;
+}
+
+.empoweing-card-part .empoweing-card h6 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 124%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary);
+}
+
+/*  */
+.about-newslatter {
+    padding: 200px 0;
+}
+
+@media only screen and (max-width: 1600px) {
+    .achievements-section .cards-container .card h6 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .achievements-section .cards-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .achievements-section .cards-container .card {
+        max-width: calc(50% - 10px)
+    }
+
+    .empoweing-section .content {
+        border-radius: 24px;
+        padding: 50px;
+    }
+
+    .empoweing-section .section-text {
+        width: 100%;
+    }
+
+    .empoweing-card-part {
+        flex-wrap: wrap;
+    }
+
+    .about-page .company-section .company-card .company-info {
+        max-width: calc(33% - 13px);
+    }
+
+    .about-newslatter {
+        padding: 170px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .achievements-section .cards-container .card h6 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .achievements-section .cards-container .card p {
+        margin-top: 16px;
+    }
+
+    .about-page .company-section .company-btn .primary-btn {
+        padding: 15px;
+    }
+
+    .about-page .company-section .company-card .company-info {
+        max-width: calc(50% - 10px);
+    }
+
+    .empoweing-section {
+        padding: 70px 0;
+    }
+
+    .empoweing-card-part .empoweing-card {
+        max-width: 190px;
+    }
+
+    .empoweing-section .section-text {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .about-newslatter {
+        padding: 100px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .empoweing-card-part .empoweing-card .empoweing-card-icon {
+        width: 120px;
+        height: 120px;
+    }
+
+    .empoweing-card-part .empoweing-card .empoweing-card-icon img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .empoweing-card-part .empoweing-card h6 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .achievements-section .cards-container .card img {
+        width: 60px;
+    }
+
+    .achievements-section .cards-container .card {
+        max-width: 100%;
+    }
+
+    .about-newslatter {
+        padding: 50px 0;
+    }
+
+    .about-page .company-section .company-btn .primary-btn {
+        padding: 10px 20px;
+    }
+
+    .about-page .company-section .company-card .company-info {
+        max-width: calc(100%);
+    }
+
+    .empoweing-section .content {
+        border-radius: 18px;
+        padding: 30px 16px;
+    }
+
+    .empoweing-card-part .empoweing-card {
+        max-width: 100%;
+    }
+
+    .empoweing-section .left-arrow-btn {
+        padding: 16px 56px 16px 16px;
+        font-size: 16px;
+    }
+
+    .empoweing-card-part .empoweing-card h6 {
+        font-size: 16px;
+    }
+
+    .empoweing-card-part {
+        gap: 24px;
+        padding: 0;
+        margin: 50px 0;
+    }
+
+    .empoweing-section .section-text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .empoweing-section .left-arrow-btn {
+        padding: 16px 56px 16px 10px;
+        font-size: 13px;
+    }
+}

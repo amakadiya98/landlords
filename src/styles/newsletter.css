@@ -2,9 +2,9 @@
   padding: 288px 100px 100px 100px;
   border-radius: 20px;
   background-image: url("/images/newsletter/newsletter-bg.png");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .newsletter-content .text-content {
@@ -28,9 +28,66 @@
   font-size: 32px;
   text-align: center;
   color: var(--white);
-  margin-top:30px;
+  margin-top: 30px;
 }
 
-.newsletter-content .text-content button{
-    margin-top:30px;
+.newsletter-content .text-content button {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .newsletter-content .text-content h4 {
+    font-size: 44px;
+  }
+
+  .newsletter-content .text-content p {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .newsletter-content .text-content button {
+    margin-top: 20px;
+  }
+
+  .newsletter-content {
+    padding: 200px 80px 80px 80px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .newsletter-content {
+    padding: 140px 40px 60px 40px;
+  }
+
+  .newsletter-content .text-content h4 {
+    font-size: 34px;
+  }
+
+  .newsletter-content .text-content p {
+    font-size: 20px;
+  }
+
+  .newsletter-content .text-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .newsletter-content {
+    padding: 60px 20px 40px 20px;
+    border-radius:12px;
+  }
+
+  .newsletter-content .text-content h4 {
+    font-size: 24px;
+  }
+
+  .newsletter-content .text-content p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .newsletter-content .text-content button {
+    margin-top: 10px;
+  }
 }

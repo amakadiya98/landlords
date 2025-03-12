@@ -1,12 +1,12 @@
 /* DYNAMIC LISTING SECTION  */
 
-.dynamic-listing-section{
-    padding:100px 0;
+.dynamic-listing-section {
+  padding: 100px 0;
 }
 
-.dynamic-listing-section .section-text{
-    width:70%;
-    margin: 30px auto 60px auto;
+.dynamic-listing-section .section-text {
+  width: 70%;
+  margin: 30px auto 60px auto;
 }
 
 .slider-container {
@@ -15,14 +15,18 @@
 }
 
 .slider-container .swiper-button-next {
-  bottom: 10%;
-  top: unset;
-  right: 47%;
+  position: unset;
 }
 
 .slider-container .swiper-button-prev {
+  position: unset;
+}
+
+.swiper-navigation {
+  display: flex;
+  gap: 50px;
+  position: absolute;
   bottom: 10%;
-  top: unset;
   left: 47%;
 }
 
@@ -80,8 +84,6 @@
   font-family: "Roboto";
   font-weight: 500;
   font-size: 38px;
-  line-height: 100%;
-  letter-spacing: 0%;
   color: #00000080;
   margin-top: 80px;
 }
@@ -90,8 +92,509 @@
   color: var(--black1);
 }
 
+.slider-container .slide-item .img-part {
+  padding-left: 80px;
+}
+
+.slider-container .slide-item .img-part img {
+  width: 100%;
+}
+
 /* NEWSLETTER  */
 
-.newsletter-section{
-    padding: 150px 0 120px 0;
+.newsletter-section {
+  padding: 150px 0 120px 0;
+}
+
+
+.cards-title {
+  font-family: "Bricolage Grotesque";
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: var(--black2);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cards-text {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--black4);
+}
+
+/* COMPANY-SECTION */
+.company-section .company-card {
+  gap: 20px;
+  width: 100%;
+  max-width: 1290px;
+  margin: 70px auto 0 auto;
+}
+
+.company-section .company-card .company-info {
+  background-color: var(--secondary-light);
+  padding: 40px 23px 40px 23px;
+  border-radius: 10px;
+  max-width: calc(33% - 13px);
+}
+
+.company-section .company-card .company-info .company-img-section {
+  background-color: var(--white);
+  border-radius: 160px;
+  padding: 20px 50px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.company-section .company-btn .primary-btn {
+  margin-top: 70px;
+  padding: 30px 60px 30px 60px;
+}
+
+/* COMPREH-SECTION */
+.compreh-section .compreh-info {
+  margin-right: 33px;
+}
+
+.compreh-section .compreh-info .compreh-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--black3);
+  margin: 50px 0px;
+}
+
+.compreh-section .compreh-info .compreh-btn {
+  padding: 30px 60px 30px 60px;
+}
+
+.compreh-section .compreh-img {
+  width: 100%;
+  height: auto;
+}
+
+/* CLOSING-SECTION */
+.closing-section .closing-para {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: -0.9px;
+  margin-top: 30px;
+  color: var(--black3);
+}
+
+.closing-section .closing-card {
+  gap: 80px;
+  max-width: 1280px;
+  margin: 70px auto 0 auto;
+  width: 100%;
+}
+
+.closing-section .closing-card-info {
+  border: 1px solid transparent;
+  padding: 28px 19px;
+  max-width: calc(33% - 53px);
+}
+
+.closing-section .closing-card-info .closing-card-title {
+  font-family: "Bricolage Grotesque";
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: capitalize;
+  color: var(--grey);
+  margin: 20px 0px;
+}
+
+.closing-section .closing-card-info .closing-card-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--black4);
+  width: 85%;
+  margin: 0 auto;
+}
+
+.closing-section .closing-btn {
+  margin-top: 70px;
+}
+
+/* NEGOTITAION-SECTON */
+.negotiation-section .negotiation-description p {
+  max-width: 1134px;
+  margin: 24px auto 0 auto;
+}
+
+.negotiation-section .negotiation-card {
+  margin: 70px auto 0 auto;
+  gap: 70px;
+  align-items: stretch;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.negotiation-section .negotiation-card .negotiation-card-info {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: var(--secondary);
+  max-width: calc(33% - 46px);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.negotiation-section .negotiation-card .negotiation-card-info .negotiation-card-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--black5);
+  margin: 30px 0px;
+}
+
+.negotiation-section .negotiation-card .negotiation-card-info .negotiation-card-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--black5);
+}
+
+.negotiation-section .negotiation-btn {
+  margin-top: 70px;
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {
+  .slider-container .slide-item .content-part h6 {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  .slider-container .slide-item .content-part ul {
+    font-size: 22px;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .slider-container .slide-item .content-part .number-text {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  .slider-container .slide-item .img-part {
+    padding-left: 40px;
+  }
+
+  .newsletter-section {
+    padding: 100px 0;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .compreh-section .compreh-info .compreh-text {
+    font-size: 25px;
+    margin: 20px 0px;
+  }
+
+  .slider-container .slide-item .img-part {
+    padding-left: 0px;
+  }
+
+  .slider-container .slide-item .content-part h4 {
+    margin-top: 0;
+  }
+
+  .slider-container .slide-item .content-part h6 {
+    margin-top: 20px;
+  }
+
+  .slider-container .slide-item .content-part ul {
+    margin-top: 20px;
+  }
+
+  .slider-container .slide-item .content-part .number-text {
+    margin-top: 20px;
+  }
+
+  .dynamic-listing-section .section-text {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  .company-section .company-card .company-info {
+    max-width: calc(50% - 10px);
+  }
+
+  .company-section .company-card {
+    margin-top: 50px;
+  }
+
+  .company-section .company-btn .primary-btn {
+    margin-top: 50px;
+    padding: 15px 30px 15px 30px;
+  }
+
+  .compreh-section .compreh-info .compreh-text {
+    font-size: 20px;
+    margin: 18px 0px;
+  }
+
+  .compreh-section .compreh-info {
+    margin-right: 0px;
+  }
+
+  .closing-section .closing-para {
+    margin-top: 20px;
+  }
+
+  .closing-section .closing-card {
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .closing-section .closing-btn {
+    margin-top: 50px;
+  }
+
+  .closing-section .closing-card-info {
+    max-width: calc(50% - 20px);
+  }
+
+  .closing-section .closing-card-info .closing-card-text {
+    width: 100%;
+  }
+
+  .compreh-section .compreh-info .compreh-btn {
+    padding: 15px 30px 15px 30px;
+  }
+
+  .negotiation-section .negotiation-card .negotiation-card-info {
+    max-width: calc(50% - 35px);
+  }
+
+  .negotiation-section .negotiation-card {
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .negotiation-section .negotiation-btn {
+    margin-top: 50px;
+  }
+
+  .slider-container .slide-item {
+    padding: 40px;
+  }
+
+  .slider-container .slide-item .content-part h6 {
+    font-size: 24px;
+  }
+
+  .slider-container .slide-item .content-part ul {
+    font-size: 20px;
+  }
+
+  .slider-container .slide-item .content-part .number-text {
+    font-size: 22px;
+  }
+
+  .dynamic-listing-section {
+    padding: 60px 0;
+  }
+
+  .newsletter-section {
+    padding: 70px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slider-container .slide-item .content-part ul li {
+    margin-bottom: 10px;
+  }
+
+  .swiper-navigation {
+    gap: 30px;
+    bottom: 8%;
+    left: 46%;
+  }
+
+  .slider-container .swiper-button-next:after,
+  .slider-container .swiper-button-prev:after {
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+  }
+
+  .slider-container .swiper-button-next,
+  .slider-container .swiper-button-prev {
+    max-height: 30px;
+  }
+
+  .dynamic-listing-section .section-text {
+    margin: 24px auto 40px auto;
+  }
+
+  .compreh-section .compreh-img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+
+  .slider-container .slide-item {
+    padding: 24px;
+  }
+
+  .slider-container .slide-item .content-part h6 {
+    font-size: 18px;
+  }
+
+  .slider-container .slide-item .content-part ul {
+    font-size: 16px;
+  }
+
+  .slider-container .slide-item .content-part .number-text {
+    font-size: 18px;
+  }
+
+  .dynamic-listing-section {
+    padding: 40px 0;
+  }
+
+  .swiper-navigation {
+    left: 40%;
+  }
+
+  .newsletter-section {
+    padding: 40px 0;
+  }
+
+  /* common */
+  .cards-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .cards-text {
+    font-size: 12px;
+  }
+
+  /*  */
+  .company-section .company-card .company-info .company-img-section {
+    padding: 15px 30px;
+  }
+
+  .company-section .company-card {
+    margin-top: 30px;
+  }
+
+  .company-section .company-card .company-info {
+    padding: 20px 20px 20px 20px;
+    max-width: calc(100%);
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .company-section .company-card .company-info .company-img-section .company-img {
+    width: 60px !important;
+    height: auto !important;
+  }
+
+  .company-section .company-btn .primary-btn {
+    margin-top: 30px;
+    padding: 6px 15px 6px 15px;
+  }
+
+  .compreh-section .compreh-info .compreh-text {
+    font-size: 14px;
+    margin: 8px 0px;
+  }
+
+  .compreh-section .compreh-info .compreh-btn {
+    padding: 6px 15px 6px 15px;
+  }
+
+  .compreh-section .compreh-img {
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .closing-section .closing-para {
+    margin-top: 0px;
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+
+  .closing-section .closing-card-info {
+    max-width: calc(100%);
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .closing-section .closing-card-info .closing-img {
+    width: 90px !important;
+    height: auto !important;
+  }
+
+  .closing-section .closing-card-info .closing-card-title {
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+
+  .closing-section .closing-card-info .closing-card-text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .closing-section .closing-card {
+    margin-top: 30px;
+  }
+
+  .closing-section .closing-btn {
+    margin-top: 30px;
+  }
+
+  .negotiation-section .negotiation-description p {
+    margin-top: 10px;
+  }
+
+  .negotiation-section .negotiation-card .negotiation-card-info {
+    max-width: calc(100%);
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .negotiation-section .negotiation-card {
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .negotiation-section .negotiation-btn {
+    margin-top: 30px;
+  }
+
+  .negotiation-section .negotiation-card .negotiation-card-info .negotiation-img {
+    width: 60px !important;
+    height: auto !important;
+  }
+
+  .negotiation-section .negotiation-card .negotiation-card-info .negotiation-card-title {
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+
+  .negotiation-section .negotiation-card .negotiation-card-info .negotiation-card-text {
+    font-size: 15px;
+  }
 }

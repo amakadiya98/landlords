@@ -1,0 +1,301 @@
+/* PRICING CARDS  */
+
+.pricing-cards-section .section-heading {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pricing-cards-section .pricing-cards {
+  gap: 22px;
+  margin-top: 70px;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card {
+  padding: 44px 48px;
+  background: radial-gradient(
+    138.52% 138.52% at 50.09% 99.36%,
+    #ffffff 0%,
+    #ffffff 15.35%,
+    #ffffff 60.12%,
+    #6699cc 100%
+  );
+  width: 100%;
+  border-radius: 10px;
+  color: var(--black1);
+  border: 1.5px solid #d0d5dd;
+  box-shadow: -9px 53px 32px 0px #bdbdbd0d;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card:nth-child(2) {
+  background: radial-gradient(
+    91.57% 91.57% at 86.16% 10.66%,
+    #6a6a6a 0%,
+    #000000 100%
+  );
+  color: var(--white);
+}
+
+.pricing-cards-section .pricing-cards .pricing-card h4 {
+  font-family: "Bricolage Grotesque";
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card .price-text {
+  font-family: "Bricolage Grotesque";
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card .price-text span {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card .choose-btn {
+  width: -webkit-fill-available;
+  padding: 16px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  background-color: var(--primary-dark);
+  color: var(--white);
+  border: 0;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  margin: 20px;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card .choose-btn:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-cards-section .pricing-cards .pricing-card:nth-child(2) .choose-btn {
+  background-color: var(--white);
+  color: var(--black1);
+}
+
+.pricing-cards-section .pricing-cards .pricing-card:nth-child(2) .divider {
+  border-bottom: 1.08px solid #ffffff;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card .divider {
+  border-bottom: 1px solid #e6e9f5;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card ul {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card ul li {
+  margin-top: 30px;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card:nth-child(2) ul {
+  padding-top: 10px;
+}
+
+.pricing-cards-section .pricing-cards .pricing-card:nth-child(2) ul li {
+  margin-top: 33px;
+}
+
+/* FAQ SECTION  */
+
+.faq-section .heading-content {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.faq-section .heading-content p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 19.11px;
+  text-align: center;
+  color: #464646;
+  margin-top: 30px;
+}
+
+.faq-section .heading-content .button-container {
+  margin-top: 70px;
+  gap: 36px;
+}
+
+.faq-section .heading-content .button-container button {
+  padding: 18px 60px;
+  font-size: 18px;
+}
+
+.faq-section .heading-content .button-container button:nth-child(2) {
+  background-color: var(--secondary);
+  color: #0f0f0f;
+}
+
+.faq-section .heading-content .button-container button:nth-child(2):hover {
+  background-color: var(--navy-blue);
+  color: var(--white);
+}
+
+.faq-section .faq-part {
+  margin-top: 70px;
+}
+
+/* newsletter  */
+
+.pricing-page .newsletter-part {
+  padding: 50px 0;
+}
+
+@media only screen and (max-width: 1600px) {
+  .pricing-cards-section .pricing-cards .pricing-card h4 {
+    font-size: 40px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card .price-text {
+    font-size: 28px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card ul {
+    font-size: 20px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card {
+    padding: 32px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card ul li {
+    margin-top: 24px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card:nth-child(2) ul li {
+    margin-top: 28px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card:nth-child(2) ul {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .pricing-cards-section .pricing-cards .pricing-card {
+    padding: 24px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card h4 {
+    font-size: 34px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card .price-text {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card .choose-btn {
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card .divider {
+    margin: 0;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card ul {
+    font-size: 18px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card ul li {
+    margin-top: 20px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card:nth-child(2) ul li {
+    margin-top: 22px;
+  }
+
+  .faq-section .heading-content {
+    width: 100%;
+  }
+
+  .faq-section .heading-content .button-container button {
+    padding: 12px 32px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .pricing-cards-section .pricing-cards {
+    flex-wrap: wrap;
+  }
+
+  .pricing-cards-section .section-heading {
+    width: 100%;
+  }
+
+  .faq-section .faq-part {
+    margin-top: 40px;
+  }
+
+  .faq-section .heading-content p {
+    font-size: 16px;
+  }
+
+  .faq-section .heading-content .button-container {
+    gap: 24px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .pricing-cards-section .pricing-cards {
+    margin-top: 40px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card h4 {
+    font-size: 24px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card .price-text {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card .choose-btn {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card ul {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card ul li {
+    margin-top: 14px;
+  }
+
+  .pricing-cards-section .pricing-cards .pricing-card:nth-child(2) ul li {
+    margin-top: 14px;
+  }
+
+  .faq-section .heading-content p {
+    margin-top: 20px;
+  }
+
+  .faq-section .heading-content .button-container {
+    gap: 16px;
+    margin-top: 30px;
+  }
+
+  .faq-section .heading-content .button-container button {
+    padding: 8px 24px;
+    font-size: 14px;
+  }
+}

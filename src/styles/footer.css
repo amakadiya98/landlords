@@ -1,0 +1,160 @@
+.footer-section {
+    background-color: var(--secondary-light);
+    padding: 74px 0 30px 0;
+}
+
+.footer-section p {
+    font-family: 'Bricolage Grotesque';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -5%;
+    color: var(--black2);
+    margin: 0;
+    width: 50%;
+}
+
+.footer-section h4 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 19.84px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--black2);
+    margin-bottom: 30px;
+}
+
+.footer-section h6 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--black2);
+}
+
+.footer-section ul li {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    color: var(--black2);
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--black2);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .footer-logo {
+    margin-bottom: 60px;
+
+}
+
+.footer-section .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.footer-section .social-icons a {
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-section .social-icons a:hover {
+    scale: 1.07;
+}
+
+.footer-section .term-and-condition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #BBBBBB;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.footer-section .term-and-condition a {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-section {
+        padding: 50px 0 20px 0;
+    }
+
+    .footer-section .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-section .footer-logo img {
+        width: 200px;
+    }
+
+    .footer-section .footer-brands img {
+        width: 50px;
+    }
+
+    .footer-section p {
+        width: 100%;
+    }
+
+    .footer-section .social-icons {
+        gap: 16px;
+        margin-top: 20px;
+    }
+
+    .footer-section .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-section h4 {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+
+    .footer-section ul {
+        padding-left: 20px;
+    }
+
+    .footer-section ul li {
+        font-size: 16px;
+    }
+
+    .footer-section h6 {
+        font-size: 16px;
+    }
+
+    .footer-section .term-and-condition {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        padding-top: 10px;
+        margin-top: 20px;
+    }
+
+    .footer-section a {
+        font-size: 16px;
+    }
+
+    .footer-section .northstar-logo {
+        width: 180px;
+    }
+}
